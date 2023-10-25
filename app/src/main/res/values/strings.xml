@@ -1,0 +1,30 @@
+<resources>
+    <string name="btnEntrar">Entrar</string>
+    <string name="recupera">Ingresa tu correo para\n restablecer la contraseña</string>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="nova">NovaSentinel</string>
+    <string name="correo">Ingrese Correo</string>
+    <string name="contraseña">Ingrese Contraseña</string>
+    <string name="olvidaste">Olvidaste la contraseña?</string>
+    <string name="registrar">Registrate!!</string>
+    <string name="title_activity_recuperar">ActivityRecuperar</string>
+    <string name="title_activity_registrar">ActivityRegistrar</string>
+    <string name="fraseregistro">Únete a NovaSentinel y toma el control de tu seguridad</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="fecha">Fecha de Nacimiento</string>
+    <string name="genero">Genero</string>
+    <string name="btnregistro">Registrar</string>
+    <string name="btn_ya_cuenta">Ya tienes una cuenta Entra!!</string>
+    <string name="title_activity_perfil">ActivityPerfil</string>
+
+
+    <string name="Nombre">Maria Fernanda</string>
+    <string name="Apellido">Sanchez Cortes</string>
+    <string name="Correo">mafe@gmail.com</string>
+    <string name="Identificacion">1033756996</string>
+
+    <string name="Historial">Historial de Incidentes</string>
+
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:id="@+id/nova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/nova"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fraseregistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/fraseregistro"
+        android:textColor="#633D25"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:fontFamily="casual"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <EditText
+        android:id="@+id/txtapellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:fontFamily="casual"
+        android:hint="@string/apellido"
+        android:inputType="text"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+
+        android:textColorLink="#9F715D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:fontFamily="casual"
+        android:hint="@string/nombre"
+        android:inputType="text"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+
+        android:textColorLink="#9F715D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <EditText
+        android:id="@+id/identicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:fontFamily="casual"
+        android:hint="@string/identificacion"
+        android:inputType="number"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+
+        android:textColorLink="#9F715D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <EditText
+        android:id="@+id/txtfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:fontFamily="casual"
+        android:hint="@string/fecha"
+        android:inputType="date"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+
+        android:textColorLink="#9F715D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
+
+    <Spinner
+        android:id="@+id/spinnerGenero"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="344dp"
+        android:layout_height="66dp"
+        android:fontFamily="casual"
+        android:foregroundTint="#9F715D "
+        android:padding="20dp"
+        android:textColor="#9F715D "
+        android:textColorHighlight="#9F715D "
+        android:textColorHint="#9F715D "
+        android:textColorLink="#9F715D "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768" />
+
+    <Button
+        android:background="@drawable/borderboton"
+        android:id="@+id/btn_registro"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="145dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#A5775A"
+        android:fontFamily="casual"
+        android:text="@string/btnregistro"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+
+    <Button
+        android:id="@+id/btn_ya_tiene_cuenta"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/btn_ya_cuenta"
+        android:textColor="#633D25"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
